@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark | Netflix Orijinal Dizisi - Resmi Fan Sayfası</title>
+    <meta name="description"
+        content="Dark Netflix orijinal bilim kurgu dizisi hakkında detaylı bilgi, karakter analizi, bölüm rehberi ve daha fazlası.">
+    <meta name="keywords" content="Dark, Netflix, bilim kurgu, zaman yolculuğu, Almanya, dizi">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="particles-container">
+        <canvas id="particlesCanvas"></canvas>
+    </div>
+
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <h2>DARK</h2>
+            <p>Zeit ist eine Illusion</p>
+        </div>
+    </div>
+
+    <nav class="navbar" role="navigation">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://pbs.twimg.com/media/DowcASGX0AEyk-V.jpg"alt="Dark Logo" class="dark-logo" />
+                <h2>DARK</h2>
+                <span class="nav-tagline">Netflix Orijinal</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Ana Sayfa</a>
+                <a href="#about-series" class="nav-link">Dizi Hakkında</a>
+                <a href="#characters" class="nav-link">Karakterler</a>
+                <a href="#episodes" class="nav-link">Bölümler</a>
+                <a href="#timeline" class="nav-link">Zaman Çizelgesi</a>
+                <a href="#about-me" class="nav-link">Hakkında</a>
+                <a href="#reviews" class="nav-link">Eleştiriler</a>
+                <a href="#contact" class="nav-link">İletişim</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+  <div class="bubble-container" id="bubbleContainer"></div>
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <img src="https://dark.netflix.io/share/global.png" alt="Dark Series Poster" class="hero-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">DARK</h1>
+            <p class="hero-subtitle">Zeit ist eine Illusion</p>
+            <p class="hero-description">
+                Winden kasabasında çocukların gizemli kayboluşu, dört aileyi birbirine bağlayan ve üç nesli kapsayan
+                karmaşık bir zaman yolculuğu hikayesini başlatır. Geçmiş, şimdi ve gelecek arasındaki sınırların
+                bulanıklaştığı bu distopik dünyada, hiçbir şey göründüğü gibi değildir.
+            </p>
+            <div class="hero-buttons">
+                <a href="https://www.youtube.com/watch?v=ESEUoa-mz2c" target="_blank" class="btn btn-primary">Fragmanı
+                    İzle</a>
+                <a href="#characters" class="btn btn-secondary nav-link">Karakterleri Keşfet</a>
+
+
+            </div>
+
+            <div class="favorite-wrapper">
+                <button id="favoriteBtn" class="btn btn-favorite">⭐ Favorilere Ekle</button>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Sezon</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">26</span>
+                    <span class="stat-label">Bölüm</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">9.7</span>
+                    <span class="stat-label">IMDB Puanı</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">Zaman Dönemi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-series" class="about-series fade-in-section">
+        <div class="container">
+            <h2 class="section-title">Dizi Hakkında</h2>
+            <div class="about-series-content">
+                <div class="about-text">
+                    <h3>Dark: Zamanın Gizemi</h3>
+                    <p>
+                        Dark, Netflix'in ilk Alman orijinal dizisi olarak 2017 yılında yayın hayatına başladı.
+                        Baran bo Odar ve Jantje Friese tarafından yaratılan bu bilim kurgu gerilim dizisi,
+                        küçük bir Alman kasabası olan Winden'de geçer.
+                    </p>
+                    <p>
+                        Dizi, çocukların gizemli kayboluşuyla başlayan olayları konu alır ve zamanla
+                        zaman yolculuğu, paralel evrenler ve nedensellik paradoksları gibi karmaşık
+                        bilim kurgu temalarını işler.
+                    </p>
+                    <div class="series-awards">
+                        <h4>Ödüller ve Başarılar</h4>
+                        <ul>
+                            <li>Grimme Ödülü - En İyi Kurgu Dizi (2018)</li>
+                            <li>Deutscher Fernsehpreis - En İyi Drama Dizisi (2020)</li>
+                            <li>Critics' Choice Television Award - En İyi Yabancı Dizi (2020)</li>
+                            <li>IMDb En İyi 250 TV Dizisi listesinde</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://occ-0-8407-90.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABShpXoLjvYONIdvjP3LmSFYKRs9DhiOU5CJR1CEbnY7E2mCoc3mvelLC5WjxU3_eqnYPe0aE0e2MILoYIkS2mLmpuvD5hEMVGOeW.jpg?r=e0b"
+                        alt="Dark Series Behind the Scenes">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="characters" class="characters fade-in-section">
+        <div class="container">
+            <h2 class="section-title glitch-text">Ana Karakterler</h2>
+            <div class="characters-intro">
+                <p>Dark'ın karmaşık hikayesinde, her karakter farklı zaman dilimlerinde yaşar ve birbirleriyle
+                    beklenmedik şekillerde bağlantı kurar.</p>
+            </div>
+            <div class="characters-grid">
+                <div class="character-card reveal-card">
+                    <div class="character-image">
+                        <img src="https://static.wikia.nocookie.net/dark-netflix/images/a/a6/Jonas_Kahnwald%E2%80%93Profile.png/revision/latest/scale-to-width-down/1200?cb=20220218082957"
+                            alt="Jonas Kahnwald">
+                        <div class="character-overlay">
+                            <h3>Jonas Kahnwald</h3>
+                            <p>Zaman döngüsünün merkezindeki genç adam. Babasının intiharından sonra Winden'deki
+                                gizemleri çözmeye çalışır.</p>
+                            <div class="character-details">
+                                <span class="character-age">16-49 yaşları arası</span>
+                                <span class="character-role">Protagonist</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="character-card reveal-card">
+                    <div class="character-image">
+                        <img src="https://static.wikia.nocookie.net/dark-netflix/images/7/73/Young_Martha_Nielsen_%28Eva%27s_World%29%E2%80%93Profile.png/revision/latest?cb=20220218073259"
+                            alt="Martha Nielsen">
+                        <div class="character-overlay">
+                            <h3>Martha Nielsen</h3>
+                            <p>Jonas'ın sevgilisi ve paralel dünyaların anahtarı. Kendi versiyonları arasında geçiş
+                                yapan karmaşık bir karakter.</p>
+                            <div class="character-details">
+                                <span class="character-age">16-49 yaşları arası</span>
+                                <span class="character-role">Deuteragonist</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="character-card reveal-card">
+                    <div class="character-image">
+                        <img src="https://static.wikia.nocookie.net/dark-netflix/images/a/a9/Adult_Ulrich_Nielsen%E2%80%93Profile.png/revision/latest?cb=20220221073746"
+                            alt="Ulrich Nielsen">
+                        <div class="character-overlay">
+                            <h3>Ulrich Nielsen</h3>
+                            <p>Winden polisinde çalışan ve oğlu Mikkel'in kaybolmasının ardından zamanlar arası yolculuk
+                                yapan polis memuru.</p>
+                            <div class="character-details">
+                                <span class="character-age">16-52 yaşları arası</span>
+                                <span class="character-role">Supporting Character</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="character-card reveal-card">
+                    <div class="character-image">
+                        <img src="https://metawitches.com/wp-content/uploads/2019/02/dark-claudia-tiedemann-1986-e1550826083557.png"
+                            alt="Claudia Tiedemann">
+                        <div class="character-overlay">
+                            <h3>Claudia Tiedemann</h3>
+                            <p>Nükleer santral müdürü ve zaman yolculuğunun sırlarını çözen bilim insanı. Döngüyü kırmak
+                                için çalışır.</p>
+                            <div class="character-details">
+                                <span class="character-age">42-72 yaşları arası</span>
+                                <span class="character-role">Antagonist/Protagonist</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="character-card reveal-card">
+                    <div class="character-image">
+                        <img src="https://static.wikia.nocookie.net/dark-netflix/images/f/f9/OlderNoah.png/revision/latest?cb=20230323164240"
+                            alt="Noah">
+                        <div class="character-overlay">
+                            <h3>Noah</h3>
+                            <p>Gizemli papaz ve zaman yolcusu. Çocukları kaçırarak zaman makinesi deneyleri yapan
+                                karanlık karakter.</p>
+                            <div class="character-details">
+                                <span class="character-age">30-50 yaşları arası</span>
+                                <span class="character-role">Antagonist</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="character-card reveal-card">
+                    <div class="character-image">
+                        <img src="https://cdn.listelist.com/wp-content/uploads/2020/05/Dark-1921.png"
+                            alt="The Stranger">
+                        <div class="character-overlay">
+                            <h3>Yabancı</h3>
+                            <p>Gelecekten gelen gizemli adam. Gerçek kimliği dizinin en büyük sürprizlerinden biridir.
+                            </p>
+                            <div class="character-details">
+                                <span class="character-age">40-50 yaşları arası</span>
+                                <span class="character-role">Mystery Character</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="timeline fade-in-section">
+        <div class="container">
+            <h2 class="section-title">Zaman Çizelgesi</h2>
+            <div class="timeline-content">
+                <div class="timeline-item">
+                    <div class="timeline-marker">1921</div>
+                    <div class="timeline-content-box">
+                        <h3>Başlangıç</h3>
+                        <p>Winden'de ilk zaman yolculuğu deneyleri başlar. Heinrich Tannhaus zaman makinesi teorileri
+                            üzerinde çalışır.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">1953</div>
+                    <div class="timeline-content-box">
+                        <h3>İlk Döngü</h3>
+                        <p>Çocuklar kaybolmaya başlar. Helge Doppler zaman yolculuğu deneylerinin kurbanı olur.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">1986</div>
+                    <div class="timeline-content-box">
+                        <h3>Çernobil Etkisi</h3>
+                        <p>Nükleer santral kazası. Ulrich ve Katharina'nın gençliği, Mads Nielsen'in kaybolması.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">2019</div>
+                    <div class="timeline-content-box">
+                        <h3>Ana Zaman</h3>
+                        <p>Jonas'ın hikayesi başlar. Mikkel Nielsen kaybolur ve zaman döngüsü harekete geçer.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">2052</div>
+                    <div class="timeline-content-box">
+                        <h3>Kıyamet Sonrası</h3>
+                        <p>Nükleer kıyametin ardından dünya. Elisabeth Doppler'in yönetimindeki yeni düzen.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="episodes" class="episodes fade-in-section">
+        <div class="container">
+            <h2 class="section-title">Bölümler</h2>
+            <div class="episodes-seasons">
+                <div class="season-selector">
+                    <button class="season-btn active" data-season="1">1. Sezon</button>
+                    <button class="season-btn" data-season="2">2. Sezon</button>
+                    <button class="season-btn" data-season="3">3. Sezon</button>
+                </div>
+                <div class="episodes-grid" id="episodes-grid">
+                    <div class="episode-card">
+                        <div class="episode-number">S1E1</div>
+                        <div class="episode-info">
+                            <h3>Geheimnisse (Sırlar)</h3>
+                            <p>Winden'de çocukların kayboluşu gizemli olayların başlangıcını işaret eder. Dört aile
+                                arasındaki bağlantılar ortaya çıkmaya başlar.</p>
+                            <div class="episode-meta">
+                                <span class="episode-duration">51 dk</span>
+                                <span class="episode-date">1 Aralık 2017</span>
+                                <span class="episode-rating">⭐ 8.6</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="episode-card">
+                        <div class="episode-number">S1E2</div>
+                        <div class="episode-info">
+                            <h3>Lügen (Yalanlar)</h3>
+                            <p>Jonas, babasının intiharı ile ilgili gerçekleri öğrenmeye çalışırken, geçmişten gelen
+                                sırlar gün yüzüne çıkar.</p>
+                            <div class="episode-meta">
+                                <span class="episode-duration">47 dk</span>
+                                <span class="episode-date">1 Aralık 2017</span>
+                                <span class="episode-rating">⭐ 8.4</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="episode-card">
+                        <div class="episode-number">S1E3</div>
+                        <div class="episode-info">
+                            <h3>Alles ist Jetzt (Her Şey Şimdi)</h3>
+                            <p>Ulrich, oğlu Mikkel'i ararken mağarada gizemli bir geçit keşfeder. Zaman yolculuğunun ilk
+                                ipuçları belirir.</p>
+                            <div class="episode-meta">
+                                <span class="episode-duration">45 dk</span>
+                                <span class="episode-date">1 Aralık 2017</span>
+                                <span class="episode-rating">⭐ 8.7</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="episode-card">
+                        <div class="episode-number">S1E4</div>
+                        <div class="episode-info">
+                            <h3>Doppelleben (Çifte Yaşam)</h3>
+                            <p>1986'da Ulrich, genç Helge Doppler'ı bulur. Jonas gelecekten gelen yabancı ile tanışır.
+                            </p>
+                            <div class="episode-meta">
+                                <span class="episode-duration">47 dk</span>
+                                <span class="episode-date">1 Aralık 2017</span>
+                                <span class="episode-rating">⭐ 8.5</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="episode-card">
+                        <div class="episode-number">S1E5</div>
+                        <div class="episode-info">
+                            <h3>Wahrheiten (Gerçekler)</h3>
+                            <p>Hannah'nın geçmişi açığa çıkar. Claudia zaman yolculuğunun sırlarını keşfetmeye başlar.
+                            </p>
+                            <div class="episode-meta">
+                                <span class="episode-duration">49 dk</span>
+                                <span class="episode-date">1 Aralık 2017</span>
+                                <span class="episode-rating">⭐ 8.8</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="episode-card">
+                        <div class="episode-number">S1E6</div>
+                        <div class="episode-info">
+                            <h3>Sic Mundus Creatus Est</h3>
+                            <p>Jonas 1953'e seyahat eder. Helge'nin hikayesi ve zaman döngüsünün karmaşıklığı ortaya
+                                çıkar.</p>
+                            <div class="episode-meta">
+                                <span class="episode-duration">52 dk</span>
+                                <span class="episode-date">1 Aralık 2017</span>
+                                <span class="episode-rating">⭐ 9.0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-me" class="about-me fade-in-section">
+        <div class="container">
+            <h2 class="section-title">Hakkında</h2>
+            <div class="about-me-content">
+                <p>Bu web sitesi, <strong>Sümeyye Akgül</strong> tarafından tasarlanmıştır. Dark dizisine olan hayranlık
+                    ve
+                    front-end geliştirme tutkusu bir araya getirilerek hazırlanmıştır.</p>
+                <p>Benimle iletişime geçmek veya diğer projelerimi görmek için aşağıdaki bağlantıları kullanabilirsiniz:
+                </p>
+                <ul class="about-links">
+                    <li><a href="https://github.com/sumeyye677" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/sumeyye-akgul/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://portfolyo-site.com" target="_blank">Portfolyo</a></li>
+                </ul>
+
+                <div class="favorite-scene-subsection">
+                    <h3>🎬 Favori Sahnem</h3>
+                    <p>
+                        Dark'ın en etkileyici anlarından biri, Jonas'ın ilk kez zaman yolculuğunu keşfettiği sahne.
+                        Mağaradaki geçidin açılması ve farklı zaman dilimlerinin birbirine bağlandığının anlaşılması,
+                        dizinin karmaşık yapısının temelini oluşturur. Bu sahne, izleyiciyi tamamen farklı bir hikaye
+                        anlatım tarzıyla tanıştırır.
+                    </p>
+                    <div class="scene-video">
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/E22uPxj-l1U?start=1"
+                            title="DARK Trailer" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Reviews Section -->
+<section id="reviews" class="reviews fade-in-section">
+    <div class="container">
+        <h2 class="section-title">Eleştiriler ve Yorumlar</h2>
+
+        <div class="reviews-stats">
+            <div class="review-stat">
+                <span class="stat-number">9.7</span>
+                <span class="stat-label">IMDb Puanı</span>
+            </div>
+            <div class="review-stat">
+                <span class="stat-number">95%</span>
+                <span class="stat-label">Rotten Tomatoes</span>
+            </div>
+            <div class="review-stat">
+                <span class="stat-number">82</span>
+                <span class="stat-label">Metacritic</span>
+            </div>
+        </div>
+
+        <div class="reviews-grid">
+
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&q=80" alt="Reviewer 1">
+                        <div>
+                            <h4>The Guardian</h4>
+                            <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                </div>
+                <p>"Dark, televizyon tarihindeki en karmaşık ve tatmin edici bilim kurgu yapımlarından biri. Her bölüm yeni bir gizem katmanı açıyor."</p>
+            </div>
+
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <img src="https://www.yunusozkazanc.com/photos/kurumsal/1/is-portfoy-kurumsal-fotograf-cekimi__KUR.B.ISPORTFOY_02.jpg" alt="Reviewer 2">
+                        <div>
+                            <h4>Rolling Stone</h4>
+                            <div class="review-rating">⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                </div>
+                <p>"Netflix'in en iddialı projelerinden biri. Zaman yolculuğu temasını bu kadar ustalıkla işleyen başka bir yapım yok."</p>
+            </div>
+
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&q=80" alt="Reviewer 3">
+                        <div>
+                            <h4>Variety</h4>
+                            <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                </div>
+                <p>"Görsel efektler ve oyunculuk performansları mükemmel. Her karakter çok boyutlu ve gelişmiş."</p>
+            </div>
+
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=50&q=80" alt="Reviewer 4">
+                        <div>
+                            <h4>Entertainment Weekly</h4>
+                            <div class="review-rating">⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                </div>
+                <p>"Karmaşık hikaye anlatımı ve atmosfer yaratımında başarılı. Dikkat gerektiren ama ödüllendiren bir deneyim."</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="contact fade-in-section">
+        <div class="container">
+            <h2 class="section-title">İletişim</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Fan Sayfası Hakkında</h3>
+                    <p>Bu sayfa Dark dizisinin hayranları tarafından hazırlanmış resmi olmayan bir fan sayfasıdır.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h4>E-posta</h4>
+                            <p>info@darkfanpage.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Sosyal Medya</h4>
+                            <p>@darkfanpage</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Yasal Uyarı</h4>
+                            <p>Tüm içerik ve görseller ilgili sahiplerinin mülkiyetindedir.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Mesaj Gönder</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Adınız" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="E-posta" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Mesajınız" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DARK</h3>
+                    <p>Zeit ist eine Illusion</p>
+                    <p>Netflix Orijinal Bilim Kurgu Dizisi</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hızlı Linkler</h4>
+                    <ul>
+                        <li><a href="#home">Ana Sayfa</a></li>
+                        <li><a href="#about-series">Dizi Hakkında</a></li>
+                        <li><a href="#characters">Karakterler</a></li>
+                        <li><a href="#episodes">Bölümler</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>İçerik</h4>
+                    <ul>
+                        <li><a href="#timeline">Zaman Çizelgesi</a></li>
+                        <li><a href="#about-me">Galeri</a></li>
+                        <li><a href="#reviews">Eleştiriler</a></li>
+                        <li><a href="#contact">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Yasal</h4>
+                    <ul>
+                        <li><a href="#">Gizlilik Politikası</a></li>
+                        <li><a href="#">Kullanım Koşulları</a></li>
+                        <li><a href="#">Telif Hakkı</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dark Fan Sayfası. Bu site resmi olmayan bir fan sayfasıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6" />
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
