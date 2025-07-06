@@ -50,5 +50,11 @@ Bu proje, Netflix'in kült dizisi **DARK** için hazırlanmış, görsel efektle
 
 ---
 
-## 📂 Dosya Yapısı
+❤️ Hazırlayan
+Bu proje, Sümeyye Akgül tarafından front-end geliştirme becerilerini geliştirmek ve sevdiği bir diziyi interaktif şekilde tanıtmak amacıyla hazırlanmıştır.
 
+GitHub: @sumeyye677
+
+LinkedIn: Sumeyye Akgül
+
+Portfolyo: portfolyo-site.com
