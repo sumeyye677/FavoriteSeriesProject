@@ -2,6 +2,8 @@
 
 Bu proje, Netflix'in kült dizisi **DARK** için hazırlanmış, görsel efektlerle zenginleştirilmiş, etkileşimli ve duyarlı (responsive) bir web sitesi fan çalışmasıdır. Dizi severlerin karakterleri keşfetmesi, bölümleri incelemesi ve zaman çizelgesine göz atması için tasarlanmıştır.
 
+**Web Canlı Link: https://gentle-froyo-624dd6.netlify.app/**
+
 ![Dark Hero](https://dark.netflix.io/share/global.png)
 
 ---
